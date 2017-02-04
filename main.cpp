@@ -7,12 +7,12 @@
 #include "UsbDevice.h"
 
 int main(int argc, char **argv) {
-	UsbDevice::OpenDevice(0x1038, 0x1600, 0x0000);
-    UsbDevice::OpenDevice(0x1770, 0xFF00, 0);
+	UsbDevice::OpenDevice(0x1038, 0x1600, 0x0000); //ss game sense
+    UsbDevice::OpenDevice(0x1770, 0xFF00, 0);//msi kb
 
-    UsbDevice::OpenDevice(0x1532, 0x0C00, 0);
-    UsbDevice::OpenDevice(0x1532, 0x005C, 0);
-    UsbDevice::OpenDevice(0x1532, 0x0210, 0);
+    UsbDevice::OpenDevice(0x1532, 0x0C00, 0);//firefly
+    UsbDevice::OpenDevice(0x1532, 0x005C, 0);//death adder elite
+    UsbDevice::OpenDevice(0x1532, 0x0210, 0);//pro2016 kbd
 	
     UsbDevice::OpenDevice(0x1532, 0x0C00, 1);
     UsbDevice::OpenDevice(0x1532, 0x005C, 1);
