@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     UsbDevice::OpenDevice(0x1532, 0x005C, 0);//death adder elite
     UsbDevice::OpenDevice(0x1532, 0x0210, 0);//pro2016 kbd
 	
-    UsbDevice::OpenDevice(0x1532, 0x0C00, 1);
+    UsbDevice::OpenDevice(0x1532, 0x0C00, 1);//firefly (this is the only one that actually opened)
     UsbDevice::OpenDevice(0x1532, 0x005C, 1);
     UsbDevice::OpenDevice(0x1532, 0x0210, 1);
 
