@@ -13,18 +13,26 @@ int main(int argc, char **argv) {
     UsbDevice::OpenDevice(0x1532, 0x0C00, 0);//firefly
     UsbDevice::OpenDevice(0x1532, 0x005C, 0);//death adder elite
     UsbDevice::OpenDevice(0x1532, 0x0210, 0);//pro2016 kbd
+    UsbDevice::OpenDevice(0x1532, 0x0114, 0);//death stalker kbd
+    UsbDevice::OpenDevice(0x1532, 0x011D, 0);//blade14
 	
     UsbDevice::OpenDevice(0x1532, 0x0C00, 1);//firefly (this is the only one that actually opened)
     UsbDevice::OpenDevice(0x1532, 0x005C, 1);
     UsbDevice::OpenDevice(0x1532, 0x0210, 1);
+    UsbDevice::OpenDevice(0x1532, 0x0114, 1);
+    UsbDevice::OpenDevice(0x1532, 0x011D, 1);
 
     UsbDevice::OpenDevice(0x1532, 0x0C00, 2);
     UsbDevice::OpenDevice(0x1532, 0x005C, 2);
     UsbDevice::OpenDevice(0x1532, 0x0210, 2);
+    UsbDevice::OpenDevice(0x1532, 0x0114, 2);
+    UsbDevice::OpenDevice(0x1532, 0x011D, 2);
 
     UsbDevice::OpenDevice(0x1532, 0x0C00, 3);
     UsbDevice::OpenDevice(0x1532, 0x005C, 3);
     UsbDevice::OpenDevice(0x1532, 0x0210, 3);
+    UsbDevice::OpenDevice(0x1532, 0x0114, 3);
+    UsbDevice::OpenDevice(0x1532, 0x011D, 3);
 
 	printf("Press enter to continue...");
 	getc(stdin);
